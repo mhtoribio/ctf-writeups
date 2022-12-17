@@ -10,7 +10,7 @@ The ICs from left-to-right are the following: HD74HC157P, SN74HC08N, SN74LS32N, 
 
 We get the source code file
 
-```Arduino
+```cpp
 char * flag = "REDACTED";
 String curr;
 int out0=46, out1=47, out2=48, out3=49, out4=50, out5=51, out6=52, out7=53;
