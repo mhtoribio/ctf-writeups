@@ -94,7 +94,7 @@ As we are not getting more information from the code, we have to look at the har
 With the challenge comes a few image files, `circuit_schematic.png` and `circuit.jpg`.
 Of the two, `circuit_schematic.png` is the most interesting.
 
-![Circuit Schematic]{circuit_schematic.png}
+![Circuit Schematic](circuit_schematic.png)
 
 From the challenge description, we know that the ICs from left-to-right are: HD74HC157P, SN74HC08N, SN74LS32N, SN74LS86N, SN74LS04N.
 When googling the datasheets, we get the following IC descriptions.
@@ -107,7 +107,7 @@ When googling the datasheets, we get the following IC descriptions.
 
 From these functions (along with looking at the pinout for each IC), the following gate-level schematic is discovered.
 
-![Reverse-Engineered Schematic]{rev_sch.png}
+![Reverse-Engineered Schematic](rev_sch.png)
 
 From the reverse-engineered schematic, the following relations must be true.
 
